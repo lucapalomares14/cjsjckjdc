@@ -1,0 +1,801 @@
+/*comentario*/
+/* propiedad:valor */
+
+
+/*
+#252525 negro
+#FF0000 rojo
+#EFEFEF blanco
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; }
+
+/* Seccion                                                                                                    index*/
+body{
+    background-color:#ffffff
+}
+footer{
+    background-color: #003087;
+    color:#fff;
+    text-align: center;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#003087;
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    position: sticky;
+    top: 0%
+}
+/*logos*/
+
+.logowp{    
+position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #25d366;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0,0,0,3);
+}
+.logo{
+
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+
+    object-fit: cover;
+
+}
+.ultima-seccion{
+    text-align: center;
+padding-bottom: 40px;
+padding-top: 20px;
+
+}
+.boton-comprar{
+    background-color: #000000;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+h2{
+    margin: 6px;
+    text-align: justify;
+    color: #000000;
+}
+.tiguan-img{
+    width: 95%;
+    height: auto;
+    margin: 20px;
+}
+/*Grid index*/
+.contenedor-grid{
+
+    display: grid; 
+    grid-template-areas: 
+    "titulo titulo"
+    "casa1 casa2"
+    "texto1 texto2";
+    grid-template-columns:  50% 50%;
+    grid-template-rows: 150px 200px 180px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+.contenedor-grid img{
+    width: 100%;
+    height: 400px;
+    padding-top: 60px;
+}
+
+
+.titulo-index{
+    text-decoration: underline;
+    color: #003087;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px;
+    grid-area: titulo;
+
+}
+.texto-index{
+    font-size: 30px;
+    color: #003087;
+    font-weight:700;
+    padding-top: 70px;
+    grid-area: texto1;
+}
+.segundo-texto{
+    font-size: 30px;
+    color: #003087;
+    font-weight:700;
+    padding-top: 70px;
+    grid-area: texto2;
+}
+.primer-imagen{
+    padding: 10px;
+    grid-area: casa1;
+}
+.segunda-imagen{
+    padding: 20px;
+    grid-area: casa2; 
+}
+
+
+
+/*banner*/
+
+.banner{
+    position: static;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.banner img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: static;
+}
+
+.texto-banner{
+    white-space: nowrap;
+    position: relative;
+    object-fit: cover;
+    top: 32%;
+    left: 20%;
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 2;
+
+}
+
+/*nav boostrap*/
+.color-backgr{
+    background-color: #003087;
+    position: fi;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+/*         navegador*/
+navbar{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%; 
+background: #fff;
+z-index: 1000;
+padding: 15px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+
+
+/*SECCION                                                                                                  COMPRAR*/
+h1{
+    color: red;
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.Banner-polo{
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.banner-polo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texto-polo{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    padding-top: 120px;
+    color: #003087;
+
+}
+.parrafo-polo{
+    font-size: 22px;
+    position: absolute;
+    top: 98%;
+    left: 1%;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+    /*banner t-cross*/
+.parrafo-segundo{
+    font-size: 17px;
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    padding-top: 120px;
+    color: rgb(0, 0, 0);  
+
+}
+
+.parrafo-tres{
+    font-size: 16px;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    padding-top: 120px;
+    color: rgb(0, 0, 0);  
+}
+.parrafo-cuatro{
+    font-size: 17px;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    padding-top: 120px;
+    color: rgb(0, 0, 0);  
+}
+
+.banner-tcross{
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    overflow: hidden;
+
+}
+
+.banner-tcross img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-tcross{
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    padding-top: 120px;
+    color: #003087;
+}
+.parrafo-tcross{
+    text-align: justify;
+    font-size: 20px;
+    position: absolute;
+    top: 150%;
+    left: 1%;
+    padding-top: 120px;
+    color: #000000;
+    font-weight: 800;
+}
+.parrafo-2cross{
+    font-size: 21px;
+    position: absolute;
+    top: 175%;
+    left: 75%;
+    font-weight: 700;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+}
+.parrafo-3cross{
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    top: 180%;
+    left: 75%;
+    font-weight: 700;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+}
+.parrafo-4cross{
+    text-align: center;
+    font-size: 21px;
+    position: absolute;
+    top: 185%;
+    left: 70%;
+    font-weight: 700;
+    padding-top: 120px;
+    color: rgb(255, 255, 255)
+}
+
+
+/* BANNER TAOS*/
+.banner-taos{
+
+    width: 100%;
+    height: 950px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.banner-taos img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.texto-taos{
+    position: absolute;
+    top: 275%;
+    left: 10%;
+    padding-top: 120px;
+    color: #003087;
+
+}
+.parrafo-uno{
+    text-align: justify;
+    font-size: 20px;
+    position: absolute;
+    top: 282%;
+    left: 1%;
+    padding-top: 120px;
+    color: #000000;
+    font-weight: 800;
+
+}
+.parrafo-sgdo{
+    font-size: 21px;
+    position: absolute;
+    top: 295%;
+    left: 80%;
+    font-weight: 700;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+}
+.parrafo-tercer{
+    font-size: 21px;
+    position: absolute;
+    top: 298%;
+    left: 80%;
+    font-weight: 700;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+
+}
+.parrafo-cuarto{
+    font-size: 21px;
+    position: absolute;
+    top: 302%;
+    left: 80%;
+    font-weight: 700;
+    padding-top: 120px;
+    color: rgb(255, 255, 255);   
+}
+
+.cierre-comprar{
+    margin: 6px;
+  text-align: center;
+  color: #003087;
+}
+
+/*Seccion                                                                   Taller*/   
+.img-presenta{
+    width: 100%;
+    height: 700px;
+   border-radius: 22px;
+   padding: 0 10 0 20;
+}
+/*Grid taller*/
+.grid-taller{
+display: grid;
+grid-template-areas: 
+"titulo titulo titulo"
+"casa1 casa2 casa3"
+"texto1 texto2 texto3";
+grid-template-columns:
+35% 35% 30% ;
+grid-template-rows: 250px 300px 100px;
+justify-content: center;
+justify-items: center;
+align-content: center;
+
+}
+.grid-taller img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: ;
+  
+}
+.titulo-taller{
+    grid-area: titulo;
+    padding-top: 80px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #003087;
+}
+.imagen-taller{
+    grid-area: casa1;
+    padding: 5px;
+}
+.segundai-taller{
+    grid-area: casa2;
+    padding: 5px;
+}
+.terceri-taller{
+    grid-area: casa3;
+}
+
+.texto-taller{
+    grid-area: texto1;
+    padding: 2px;
+    color: #003087;
+    
+}
+.segundot-taller{
+    grid-area: texto2;
+    padding: 2px;
+    color: #003087;
+}
+.tercert-taller{
+    grid-area: texto3;
+    padding: 2px;
+    color: #003087;
+}
+.ultimos-serv{
+    text-align: center;
+   
+}
+.texto-repuestos{
+    color: #003087;
+    font-size: 20px;
+    padding: 10px;
+}
+.imagenfinal-t{
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+.final-taller{
+    margin: 6px;
+  text-align: center;
+  color: #003087;
+
+}
+.h3-final{
+text-decoration: underline;
+color: #000000;
+}
+
+/*Seccion                              Servicios especiales*/
+.grid-servicios{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "casa1 subtitulo1"
+    "casa1 texto1"
+    "casa2 subtitulo2"
+    "casa2 texto2 "
+    "casa3 subtitulo3"
+    "casa3 texto3"
+    "casa4 subtitulo4"
+    "casa4 texto4"
+    "casa5 subtitulo5"
+    "casa5 texto5";
+    grid-template-columns:  45% 45%;
+    grid-template-rows: repeat(15px);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.grid-servicios img{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+}
+
+.titulo-serv{
+    grid-area: titulo;
+}
+.subt-serv{
+    
+    grid-area: subtitulo1;
+    padding-top: 60px;
+   
+}
+.p-serv{
+    grid-area: texto1;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #003087;
+}
+.subt-cont{
+    grid-area: subtitulo2;
+    padding-top: 60px;
+}
+.p-cont{
+    grid-area: texto2;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #003087;
+}
+.subt-asis{
+    grid-area: subtitulo3;
+    padding-top: 60px;
+}
+.p-asis{ 
+    grid-area: texto3;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #003087;
+
+}
+.subt-ventas{
+    grid-area: subtitulo4;
+    padding-top: 60px;
+}
+.p-ventas{
+    grid-area: texto4;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #003087;
+}
+.subt-check{
+    grid-area: subtitulo5;
+    padding-top: 60px;
+}
+.p-check{
+    grid-area: texto5;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #003087;
+}
+
+.img-exp{
+    grid-area: casa1;
+}
+.img-mant{
+    grid-area: casa2;
+}
+.img-asis{
+    grid-area: casa3
+}
+.img-entrega{
+    grid-area: casa4;
+}
+.img-check{
+    grid-area: casa5;
+}
+
+
+/*Seccion                                                                       Contacto*/
+.ubicacion-c{
+    argin-top: 30px;
+    border-radius:5px ;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) ; 
+}
+.info-contacto{
+ padding: 2px;
+ margin: 2px;
+ font-size: 20px;  
+}
+.titulo-cont{
+    margin: 0;
+    padding: 1px;
+    padding-bottom: 10px;
+    color: #003087;
+    text-decoration: underline;
+}
+.respondemos{
+    padding: 10px;
+    text-align: center;
+    color: #003087;
+}
+
+/* Responsive */
+/*mobile*/
+
+@media (max-width: 480px)
+{
+
+/* seccion                                index*/
+
+    header img{
+        width: 50px;
+        height: 50px;
+    }
+
+    nav {
+    width: 100%;
+    
+    }
+  
+
+    main{
+    text-align: center;
+    align-items: center;
+    }
+
+h1{
+    font-size: 12px;
+    font-weight: 900;
+padding-right: 18px;
+}
+
+.contenedor-grid img {
+    width: 100%;
+    height: 400px;
+    margin-bottom:40px;
+}
+.contenedor-grid{
+    h1{
+        font-size: 20px;
+        margin-bottom: 60px;
+
+    }
+    p{
+    font-size: 15px;
+    }
+
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+.tiguan-img{
+    width: 90%;
+}
+h3{
+    font-size: 20px;
+    color: #003087;
+}
+
+p{
+    font-size: 13px;
+}
+
+/*seccion                                                                    comprar*/
+.banner{
+    width: 100%;
+}
+.Banner-polo img{
+    width: 100%;
+    height: 1020px;
+}
+.texto-polo{
+    font-size: 20px;
+}
+.parrafo-polo{
+    font-size: 15px; 
+    padding-bottom: 25px; 
+}
+.parrafo-segundo{
+    font-size: 25px;
+}
+.parrafo-tres{
+    font-size: 25px;
+}
+.parrafo-cuatro{
+    font-size: 20px;
+   
+
+}
+.banner-tcross img{
+    width: 100%;
+    height: 1020px;
+}
+.parrafo-tcross{
+    font-size: 12px;
+}
+.parrafo-2cross{
+    font-size: 10px;
+}
+.parrafo-3cross{
+    font-size: 10px;
+}
+.parrafo-4cross{
+    font-size: 10px;
+}
+
+
+.banner-taos img{
+width: 100%;
+height: 1020px;
+}
+
+.texto-taos{
+    font-size: 25px;
+    margin: 30px;
+    padding-bottom: 50%;
+}
+.parrafo-uno{
+    font-size: 15px;
+    margin: 10px;
+    
+}
+
+.parrafo-sgdo{
+    font-size: 15px;
+}
+.parrafo-tercer{
+    font-size: 15px;
+}
+.parrafo-cuarto{
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*Seccion     Taller*/
+h1{
+    font-size: 25px;
+   padding: 20px;
+}
+.img-presenta{
+    padding-bottom: 5px;
+    width: 100%;
+    height: 400px;
+   border-radius: 1px;
+}
+
+
+.titulo-taller{
+    padding-top: 85px;
+}
+.grid-taller img{
+    width: 100%;
+    height: 200px;
+}
+
+.texto-taller{
+    font-size: 15px;
+    color: #003087;
+   
+}
+.segundot-taller{
+    font-size:14px;
+    
+}
+.tercert-taller{
+    font-size: 14px;
+    
+}
+
+.ultimos-serv img{
+    width: 100%;
+}
+
+
+banner img{
+    width: 100%;
+}
+
+/*seccion                                  express*/
+.grid-servicios img{
+    
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    
+}
+}
